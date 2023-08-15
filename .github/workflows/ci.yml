@@ -22,7 +22,7 @@ jobs:
       with:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rlgoDzvc -i --delete"
-          SCRIPT_BEFORE: ls
+          # SCRIPT_BEFORE: ls
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.ALIYUN_SERVER_HOST }}
           REMOTE_USER: ${{ secrets.ALIYUN_SERVER_USER }}

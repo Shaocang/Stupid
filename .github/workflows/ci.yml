@@ -32,5 +32,5 @@ jobs:
         user: 'root'
         pass: 'geshaocang520..'
         connect_timeout: 10s
-        local: './dist/*'
+        local: './build/*'
         remote: /my-repo/stupid

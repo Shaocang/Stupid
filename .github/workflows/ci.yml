@@ -29,8 +29,8 @@ jobs:
         LASTSSH: "Doing something after copying"
       with:
         host: ${{ secrets.ALIYUN_SERVER_HOST }}
-        user: ${{ secrets.SERVER_SSH_KEY }}
-        pass: ${{ secrets.ALIYUN_SERVER_USER }}
+        user: ${{ secrets.ALIYUN_SERVER_USER }}
+        pass: ${{ secrets.SERVER_SSH_KEY }}
         connect_timeout: 10s
         local: 'build/'
         remote: '/my-repo/stupid'

@@ -32,5 +32,5 @@ jobs:
         user: ${{ secrets.SERVER_SSH_KEY }}
         pass: ${{ secrets.ALIYUN_SERVER_USER }}
         connect_timeout: 10s
-        local: './dist/*'
+        local: './build/*'
         remote: '/my-repo/stupid'
